@@ -58,9 +58,9 @@ h1 {
   color:white !important;
 }
 
-.aboutPic {
-  width:20%;
-}
+/* .aboutPic {
+  width:23%;
+} */
 
 .myContent {
   background:white;
@@ -89,3 +89,19 @@ h1 {
 .space {
   height:100px !important;
 }
+
+.myBtn {
+  border:solid #777777 1px !important;
+  color: #777777 !important;
+}
+
+.myBtn:hover {
+  background:#4aaaa5 !important;
+  color:#ffffff !important;
+  border:solid #4aaaa5 1px !important;
+}
+
+#textArea {
+  resize:none;
+}
+
