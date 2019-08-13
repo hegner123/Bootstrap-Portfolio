@@ -80,3 +80,12 @@ h1 {
 .footerText {
   color:white;
 }
+
+.caption {
+  background:#4aaaa5;
+  color:#ffffff;
+}
+
+.space {
+  height:100px;
+}
