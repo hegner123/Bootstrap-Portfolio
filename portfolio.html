@@ -12,53 +12,61 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark myNav ">
-
-       <div class="col col-lg-2 p-0"></div>
-
-        <div class="col col-lg-8 col-12 p-0 ">
-
-            <div class="row">
-
-            <a class="text-center navbar-brand myBrand col-12 col-lg-6" href="index.html"><h1 class="name text-center col-12">Michael Hegner</h1></a>
-
-            <div class="col-lg-1"></div>
-      
-              <div class="nav navbar-nav col-12 col-lg-4 ">
-
-                <ul class="nav navbar-nav">
-
-                  <li class="nav-item">
-
-                    <a class="nav-link deadLink" href="index.html">About</a>
-
-                  </li>
-
-                  <li class="nav-item">
-
-                    <a class="nav-link activeLink" href="portfolio.html">Portfolio</a>
-
-                  </li>
-
-                  <li class="nav-item">
-
-                    <a class="nav-link deadLink" href="contact.html">Contact</a>
-
-                  </li>
-
-                </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    <div class="col col-lg-2  p-0"></div>
+  <!-- begin navbar code -->
+  <nav class="navbar navbar-expand-lg navbar-dark myNav row">
+      <!-- row div -->
   
-  </nav>
+  
+      <!-- spacer div, hides below lg breakpoint -->
+      <div class="col col-lg-2 p-0"></div>
+  
+      <div class="col col-lg-8 col-12 p-0 ">
+  <!-- added margin=0 to fix bug on small screens -->
+        <div class="row m-0">
+  
+          <a class="text-center navbar-brand myBrand col-12 col-lg-6" href="index.html">
+            <h1 class="name text-center col-12">Michael Hegner</h1>
+          </a>
+          <!-- spacer div, hides below lg breakpoint -->
+          <div class="col-lg-1"></div>
+          <!-- nav buttons list, padding 0 corrects weird margin -->
+          <div class="nav navbar-nav col-12 col-lg-4 p-0">
+  
+            <ul class="nav navbar-nav">
+  
+              <li class="nav-item">
+  
+                <a class="nav-link deadLink" href="index.html">About</a>
+  
+              </li>
+  
+              <li class="nav-item">
+  
+                <a class="nav-link activeLink" href="portfolio.html">Portfolio</a>
+  
+              </li>
+  
+              <li class="nav-item">
+  
+                <a class="nav-link deadLink" href="contact.html">Contact</a>
+  
+              </li>
+  
+            </ul>
+  
+          </div>
+          <!-- end nav bar list -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end overall size layout -->
+  
+      <div class="col col-lg-2  p-0"></div>
+  
+  
+  
+    </nav>
+    <!-- end navbar code -->
 
 <section class="fluid-container">
 
