@@ -84,6 +84,8 @@ h1 {
 .caption {
   background:#4aaaa5;
   color:#ffffff;
+  position: relative;
+  bottom:10%;
 }
 
 .space {
